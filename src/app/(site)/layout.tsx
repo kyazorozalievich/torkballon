@@ -1,12 +1,16 @@
-import LayoutSite from "@/component/layout/LayoutSite";
-import { FC, ReactNode } from "react";
+import LayoutSite from '@/component/layout/LayoutSite'
+import { FC, ReactNode } from 'react'
 
 interface Ilayout {
-  children: ReactNode;
+	children: ReactNode
 }
 
 const layout: FC<Ilayout> = ({ children }) => {
-  return <LayoutSite>{children}</LayoutSite>;
-};
+	return (
+		<LayoutSite>
+			<main>{children}</main>
+		</LayoutSite>
+	)
+}
 
-export default layout;
+export default layout
