@@ -17,7 +17,7 @@ const Welcome = () => {
               </h6>
               <button>Подробнее</button>
             </div>
-            <Image src={ballon} alt="ballon" width={300} height={400} />
+            <Image src={ballon} alt="ballon" width={300} height={300} />
           </div>
         </div>
       </div>
