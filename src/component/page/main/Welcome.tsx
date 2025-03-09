@@ -1,6 +1,6 @@
 'use client'
+import { FaAngleRight } from 'react-icons/fa'
 import scss from './Welcome.module.scss'
-import { FaArrowRight } from 'react-icons/fa6'
 
 const Welcome = () => {
 	return (
@@ -22,7 +22,8 @@ const Welcome = () => {
 							технологии. Высокая надежность. Доставка по всему миру.
 						</p>
 						<button>
-							Подробнее <FaArrowRight />
+							<FaAngleRight />
+							Подробнее
 						</button>
 					</div>
 				</div>

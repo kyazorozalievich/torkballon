@@ -1,0 +1,59 @@
+.Footer {
+	padding: 40px 0;
+	background-color: #0b0d42;
+	.content {
+		display: flex;
+		justify-content: space-between;
+		h2 {
+			font-size: 20px;
+			color: rgb(255, 217, 0);
+		}
+		.nav {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			a {
+				transition: all 0.5s ease-in-out;
+				color: white;
+				&:hover {
+					transform: scale(1.1);
+					color: rgb(255, 217, 0);
+				}
+			}
+			&__second {
+				display: flex;
+				flex-direction: column;
+				gap: 20px;
+				a {
+					transition: all 0.5s ease-in-out;
+					color: white;
+					&:hover {
+						transform: scale(1.1);
+						color: rgb(255, 217, 0);
+					}
+				}
+			}
+		}
+		.address {
+			display: flex;
+			flex-direction: column;
+			gap: 30px;
+			color: white;
+			.links {
+				display: flex;
+				gap: 20px;
+				font-size: 1.5rem;
+				transition: all 0.6s ease-in-out;
+				a {
+					font-size: 1.5rem;
+					color: white;
+					transition: all 0.6s ease-in-out;
+					&:hover {
+						transform: scale(1.1);
+						color: rgb(255, 217, 0);
+					}
+				}
+			}
+		}
+	}
+}
