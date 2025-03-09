@@ -12,7 +12,7 @@ const Header = () => {
 						<Link href='/'>Главная</Link>
 						<Link href='/'>Оборудование</Link>
 						<Link href='/'>О компании</Link>
-						<Link href='/'>Контакты</Link>
+						<Link href='/contact'>Контакты</Link>
 					</div>
 					<select>
 						<option value='ru'>Русский</option>

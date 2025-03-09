@@ -1,65 +1,67 @@
 .Welcome {
-	background-image: url(./../../assets/images/hero-bg.jpeg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 90vh;
-	.welcomeBg {
-		padding-top: 200px;
-		width: 100%;
-		height: 100%;
-		background: rgb(36, 43, 51);
-		background: linear-gradient(
-			180deg,
-			rgba(36, 43, 51, 1) 15%,
-			rgba(45, 52, 60, 0.6582282571231617) 30%
-		);
-		.content {
-			display: flex;
-			align-items: center;
-			flex-direction: column;
-			justify-content: center;
-			width: 100%;
-			gap: 20px;
-			text-align: center;
-			h1 {
-				font-weight: 700;
-				font-size: 48px;
-				letter-spacing: 0%;
-				color: aliceblue;
-				margin-bottom: 20px;
-				text-shadow: 0px 0px 5px white;
-				span {
-					text-shadow: 0px 0px 5px #d4c17f;
-					color: #d4c17f;
-				}
-			}
-			p {
-				font-weight: 600;
-				font-size: 20px;
-				line-height: 27px;
-				color: aliceblue;
-			}
-			button {
-				display: flex;
-				align-items: center;
-				gap: 10px;
-				padding: 10px 40px;
-				background-color: transparent;
-				border: none;
-				border: 2px solid #ffffff;
-				border-radius: 10px;
-				color: #ffffff;
-				font-weight: 600;
-				font-size: 18px;
-				transition: 0.5s ease-in-out;
-				&:hover {
-					transform: scale(1.05);
-					color: #d4c17f;
-					border: 2px solid #d4c17f;
-				}
-			}
-		}
-	}
+  background-image: url(./../../assets/images/hero-bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  .welcomeBg {
+    padding-top: 200px;
+    width: 100%;
+    height: 100%;
+    background: rgb(11, 13, 66);
+    background: linear-gradient(
+      180deg,
+      rgba(11, 13, 66, 1) 15%,
+      rgba(11, 13, 66, 0.30808820110075286) 35%,
+      rgba(11, 13, 66, 0.30808820110075286) 72%,
+      rgba(11, 13, 66, 1) 97%
+    );
+    .content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      gap: 20px;
+      text-align: center;
+      h1 {
+        font-weight: 700;
+        font-size: 48px;
+        letter-spacing: 0%;
+        color: aliceblue;
+        margin-bottom: 20px;
+        text-shadow: 0px 0px 5px white;
+        span {
+          text-shadow: 0px 0px 5px #d4c17f;
+          color: #d4c17f;
+        }
+      }
+      p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: aliceblue;
+      }
+      button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 40px;
+        background-color: transparent;
+        border: none;
+        border: 2px solid #ffffff;
+        border-radius: 10px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 18px;
+        transition: 0.5s ease-in-out;
+        &:hover {
+          transform: scale(1.05);
+          color: #d4c17f;
+          border: 2px solid #d4c17f;
+        }
+      }
+    }
+  }
 }
