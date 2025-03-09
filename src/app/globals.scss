@@ -7,7 +7,9 @@
 }
 
 body {
+  // background: linear-gradient(to bottom, #070a2b, #0b0d42);
   font-family: "Roboto", sans-serif;
+  // background: #0b0d42;
 }
 
 a {
@@ -29,8 +31,8 @@ textarea {
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
-  padding-inline: 40px;
+  padding-inline: 20px;
 }

@@ -13,7 +13,7 @@ const Header = () => {
             <Link href="/">Главаня</Link>
             <Link href="/">Оборудование</Link>
             <Link href="/">О компании</Link>
-            <Link href="/">Контакты</Link>
+            <Link href="/contact">Контакты</Link>
           </div>
           <div className={scss.target}>
             <select>
